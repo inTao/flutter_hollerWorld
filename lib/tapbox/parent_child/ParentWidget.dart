@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:holler_world/tapbox/parent_child/TapBoxB.dart';
 
 class ParentWidget extends StatefulWidget {
+  static const String ROUTE = "/home/parent_widget";
   @override
   State<StatefulWidget> createState() {
     return new _ParentState();

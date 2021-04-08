@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class LifeCyclePage extends StatefulWidget {
   LifeCyclePage({Key key, this.initState}) : super(key: key);
   String initState;
-
+  static const String ROUTE =  "/home/life_cycle_page";
   @override
   State<StatefulWidget> createState() => _LifeCycleState();
 }

@@ -4,6 +4,7 @@ import 'package:holler_world/scaffold/ScaffoldHomePage.dart';
 import 'package:holler_world/scaffold/ScaffoldMePage.dart';
 
 class ScaffoldPage extends StatefulWidget {
+  static const String ROUTE = "/home/scaffold_page";
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState

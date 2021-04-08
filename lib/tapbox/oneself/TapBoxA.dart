@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 //TapboxA 自身管理状态
 class TapBoxA extends StatefulWidget {
+  static const String ROUTE = "/home/tapbox_A";
   @override
   State<StatefulWidget> createState() {
     return new _TapBoxAState();

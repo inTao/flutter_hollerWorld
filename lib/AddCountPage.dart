@@ -1,11 +1,9 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
-import 'dart:developer';
 
 class AddCountPage extends StatefulWidget {
   AddCountPage({Key key, this.title}) : super(key: key);
   final String title;
+  static const String ROUTE = "/home/add_count_page";
 
   @override
   State<StatefulWidget> createState() {

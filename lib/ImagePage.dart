@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ImagePage extends StatelessWidget {
+  static const String ROUTE  = "/home/image_page";
   @override
   Widget build(BuildContext context) {
     return Scaffold(

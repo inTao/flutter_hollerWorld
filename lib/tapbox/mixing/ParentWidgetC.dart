@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:holler_world/tapbox/mixing/TapboxC.dart';
 
 class ParentWidgetCPage extends StatefulWidget{
-
+  static const String ROUTE = "/home/parent_widget_c_page";
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState

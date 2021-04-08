@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TextStylePage extends StatelessWidget{
+  static const ROUTE = "/home/text_style_page";
   @override
   Widget build(BuildContext context) {
       return Scaffold(
