@@ -5,6 +5,7 @@ import 'package:holler_world/MyHomePage.dart';
 import 'package:holler_world/LifeCyclePage.dart';
 import 'package:holler_world/ScrollControllerPage.dart';
 import 'package:holler_world/scaffold/ScaffoldPage.dart';
+import 'package:holler_world/shopp_cart/ProviderRoute.dart';
 import 'package:holler_world/tapbox/TextStyle.dart';
 import 'package:holler_world/tapbox/mixing/ParentWidgetC.dart';
 import 'package:holler_world/tapbox/oneself/TapBoxA.dart';
@@ -42,7 +43,8 @@ class MyApp extends StatelessWidget {
         ScrollControllerPage.ROUTE:(context) =>ScrollControllerPage(),
         NotificationListenerPage.ROUTE:(context)=> NotificationListenerPage(),
         WillPopScopePage.ROUTE:(context)=> WillPopScopePage(),
-        InheritedWidgetPage.ROUTE:(context)=> InheritedWidgetPage()
+        InheritedWidgetPage.ROUTE:(context)=> InheritedWidgetPage(),
+        ProviderRoute.ROUTE:(context)=> ProviderRoute()
       },
     );
   }

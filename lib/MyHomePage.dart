@@ -9,6 +9,7 @@ import 'package:holler_world/LifeCyclePage.dart';
 import 'package:holler_world/ListViewPage.dart';
 import 'package:holler_world/TextFieldPage.dart';
 import 'package:holler_world/scaffold/ScaffoldPage.dart';
+import 'package:holler_world/shopp_cart/ProviderRoute.dart';
 import 'package:holler_world/tapbox/TextStyle.dart';
 import 'package:holler_world/tapbox/mixing/ParentWidgetC.dart';
 import 'package:holler_world/tapbox/oneself/TapBoxA.dart';
@@ -40,11 +41,11 @@ class MyHomePage extends StatelessWidget {
     "滚动监听2" : NotificationListenerPage.ROUTE,
     "导航栏返回拦截" : WillPopScopePage.ROUTE,
     "数据共享" : InheritedWidgetPage.ROUTE,
+    "夸组件数据共享" : ProviderRoute.ROUTE,
   };
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
       appBar: AppBar(
         title: Text("home"),
@@ -52,9 +53,9 @@ class MyHomePage extends StatelessWidget {
       body: Container(
         child: ListView.builder(itemCount:page.length,itemBuilder: (context,index){
           String title = page.keys.toList()[index];
-          return ListTile(title: Text(title),onTap: (){
+          return Container(child: TextButton(child: Text(title),onPressed: (){
             Navigator.pushNamed(context, page[title]);
-          },);
+          }),);
         }),
       ),
     );
