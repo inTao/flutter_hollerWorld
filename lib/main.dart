@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:holler_world/CustomScrollViewPage.dart';
+import 'package:holler_world/DialogPage.dart';
 import 'package:holler_world/GridViewPage.dart';
 import 'package:holler_world/MyHomePage.dart';
 import 'package:holler_world/LifeCyclePage.dart';
@@ -11,6 +12,7 @@ import 'package:holler_world/tapbox/mixing/ParentWidgetC.dart';
 import 'package:holler_world/tapbox/oneself/TapBoxA.dart';
 import 'package:holler_world/tapbox/parent_child/ParentWidget.dart';
 import 'AddCountPage.dart';
+import 'FutureBuilderPage.dart';
 import 'ImagePage.dart';
 import 'InheritedWidgetPage.dart';
 import 'ListViewPage.dart';
@@ -44,7 +46,9 @@ class MyApp extends StatelessWidget {
         NotificationListenerPage.ROUTE:(context)=> NotificationListenerPage(),
         WillPopScopePage.ROUTE:(context)=> WillPopScopePage(),
         InheritedWidgetPage.ROUTE:(context)=> InheritedWidgetPage(),
-        ProviderRoute.ROUTE:(context)=> ProviderRoute()
+        ProviderRoute.ROUTE:(context)=> ProviderRoute(),
+        FutureBuilderPage.ROUTE:(context)=> FutureBuilderPage(),
+        DialogPage.ROUTE:(context)=> DialogPage()
       },
     );
   }

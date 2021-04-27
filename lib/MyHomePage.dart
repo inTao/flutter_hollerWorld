@@ -15,6 +15,8 @@ import 'package:holler_world/tapbox/mixing/ParentWidgetC.dart';
 import 'package:holler_world/tapbox/oneself/TapBoxA.dart';
 import 'package:holler_world/tapbox/parent_child/ParentWidget.dart';
 
+import 'DialogPage.dart';
+import 'FutureBuilderPage.dart';
 import 'InheritedWidgetPage.dart';
 import 'NotificationListenerPage.dart';
 import 'ScrollControllerPage.dart';
@@ -42,6 +44,8 @@ class MyHomePage extends StatelessWidget {
     "导航栏返回拦截" : WillPopScopePage.ROUTE,
     "数据共享" : InheritedWidgetPage.ROUTE,
     "夸组件数据共享" : ProviderRoute.ROUTE,
+    "异步ui更新" : FutureBuilderPage.ROUTE,
+    "对话框":DialogPage.ROUTE,
   };
 
   @override
