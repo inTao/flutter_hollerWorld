@@ -2,12 +2,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:holler_world/AddCountPage.dart';
+import 'package:holler_world/AnimationPage.dart';
 import 'package:holler_world/CustomScrollViewPage.dart';
 import 'package:holler_world/GridViewPage.dart';
 import 'package:holler_world/ImagePage.dart';
 import 'package:holler_world/LifeCyclePage.dart';
 import 'package:holler_world/ListViewPage.dart';
 import 'package:holler_world/TextFieldPage.dart';
+import 'package:holler_world/page_home.dart';
 import 'package:holler_world/scaffold/ScaffoldPage.dart';
 import 'package:holler_world/shopp_cart/ProviderRoute.dart';
 import 'package:holler_world/tapbox/TextStyle.dart';
@@ -19,6 +21,7 @@ import 'DialogPage.dart';
 import 'FutureBuilderPage.dart';
 import 'InheritedWidgetPage.dart';
 import 'NotificationListenerPage.dart';
+import 'PointEventPage.dart';
 import 'ScrollControllerPage.dart';
 import 'WillPopScopePage.dart';
 
@@ -46,6 +49,9 @@ class MyHomePage extends StatelessWidget {
     "夸组件数据共享" : ProviderRoute.ROUTE,
     "异步ui更新" : FutureBuilderPage.ROUTE,
     "对话框":DialogPage.ROUTE,
+    "原始指针事件处理": PointEventPage.ROUTE,
+    "动画":AnimationPage.ROUTE,
+    "page_home":PageHome.ROUTE
   };
 
   @override
@@ -65,3 +71,4 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
+

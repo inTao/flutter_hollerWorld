@@ -5,6 +5,7 @@ import 'package:holler_world/GridViewPage.dart';
 import 'package:holler_world/MyHomePage.dart';
 import 'package:holler_world/LifeCyclePage.dart';
 import 'package:holler_world/ScrollControllerPage.dart';
+import 'package:holler_world/page_home.dart';
 import 'package:holler_world/scaffold/ScaffoldPage.dart';
 import 'package:holler_world/shopp_cart/ProviderRoute.dart';
 import 'package:holler_world/tapbox/TextStyle.dart';
@@ -12,11 +13,13 @@ import 'package:holler_world/tapbox/mixing/ParentWidgetC.dart';
 import 'package:holler_world/tapbox/oneself/TapBoxA.dart';
 import 'package:holler_world/tapbox/parent_child/ParentWidget.dart';
 import 'AddCountPage.dart';
+import 'AnimationPage.dart';
 import 'FutureBuilderPage.dart';
 import 'ImagePage.dart';
 import 'InheritedWidgetPage.dart';
 import 'ListViewPage.dart';
 import 'NotificationListenerPage.dart';
+import 'PointEventPage.dart';
 import 'TextFieldPage.dart';
 import 'WillPopScopePage.dart';
 
@@ -48,7 +51,10 @@ class MyApp extends StatelessWidget {
         InheritedWidgetPage.ROUTE:(context)=> InheritedWidgetPage(),
         ProviderRoute.ROUTE:(context)=> ProviderRoute(),
         FutureBuilderPage.ROUTE:(context)=> FutureBuilderPage(),
-        DialogPage.ROUTE:(context)=> DialogPage()
+        DialogPage.ROUTE:(context)=> DialogPage(),
+        PointEventPage.ROUTE :(context)=>PointEventPage(),
+        AnimationPage.ROUTE : (context)=> AnimationPage(),
+        PageHome.ROUTE : (context)=>PageHome()
       },
     );
   }
