@@ -20,6 +20,7 @@ import 'package:holler_world/tapbox/parent_child/ParentWidget.dart';
 import 'DialogPage.dart';
 import 'FutureBuilderPage.dart';
 import 'InheritedWidgetPage.dart';
+import 'MethodChannelKitsPage.dart';
 import 'NotificationListenerPage.dart';
 import 'PointEventPage.dart';
 import 'ScrollControllerPage.dart';
@@ -51,7 +52,8 @@ class MyHomePage extends StatelessWidget {
     "对话框":DialogPage.ROUTE,
     "原始指针事件处理": PointEventPage.ROUTE,
     "动画":AnimationPage.ROUTE,
-    "page_home":PageHome.ROUTE
+    "page_home":PageHome.ROUTE,
+    "MethodChannelKitsPage":MethodChannelKitsPage.ROUTE
   };
 
   @override

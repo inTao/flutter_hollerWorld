@@ -18,6 +18,7 @@ import 'FutureBuilderPage.dart';
 import 'ImagePage.dart';
 import 'InheritedWidgetPage.dart';
 import 'ListViewPage.dart';
+import 'MethodChannelKitsPage.dart';
 import 'NotificationListenerPage.dart';
 import 'PointEventPage.dart';
 import 'TextFieldPage.dart';
@@ -54,7 +55,8 @@ class MyApp extends StatelessWidget {
         DialogPage.ROUTE:(context)=> DialogPage(),
         PointEventPage.ROUTE :(context)=>PointEventPage(),
         AnimationPage.ROUTE : (context)=> AnimationPage(),
-        PageHome.ROUTE : (context)=>PageHome()
+        PageHome.ROUTE : (context)=>PageHome(),
+        MethodChannelKitsPage.ROUTE : (context)=>MethodChannelKitsPage()
       },
     );
   }
