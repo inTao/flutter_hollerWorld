@@ -43,13 +43,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.15.0"
-  cupertino_icons:
-    dependency: "direct main"
-    description:
-      name: cupertino_icons
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "1.0.3"
   english_words:
     dependency: "direct main"
     description:
@@ -69,25 +62,11 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_basis:
-    dependency: "direct dev"
-    description:
-      path: flutter_basis
-      relative: true
-    source: path
-    version: "0.0.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
-  get:
-    dependency: "direct main"
-    description:
-      name: get
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "4.1.4"
   matcher:
     dependency: transitive
     description:
